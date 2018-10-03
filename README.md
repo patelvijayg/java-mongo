@@ -11,5 +11,5 @@ curl -X POST \
 	"name":"vijay",
 	"age":37
 }'
-
+ 
 curl -X GET http://javamonogdb1-javaproject.a3c1.starter-us-west-1.openshiftapps.com/api/users  -H 'Content-Type: application/json' 
