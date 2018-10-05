@@ -13,3 +13,8 @@ curl -X POST \
 }'
  
 curl -X GET http://javamonogdb1-javaproject.a3c1.starter-us-west-1.openshiftapps.com/api/users  -H 'Content-Type: application/json' 
+
+Builds-> javamonogdb1->Environment Variables
+WebHookSecretKey : abcdef1234
+
+in GitHub change Content Type : application/json
